@@ -1,0 +1,21 @@
+{
+  "name": "cinastra-main",
+  "version": "1.0.0",
+  "description": "[Visit the public DEMO of the software.](https://cinastra.rodyherrera.com/)",
+  "main": "index.js",
+  "scripts": {
+    "build": " cd Server && npm install  && cd ../Client && npm install && npm start",
+    "start": "node Server/Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish6523/ChatApp_Assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish6523/ChatApp_Assignment/issues"
+  },
+  "homepage": "https://github.com/ashish6523/ChatApp_Assignment#readme"
+}

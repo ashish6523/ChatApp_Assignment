@@ -27,7 +27,7 @@ const Layout = () => {
             <Fade clear>
                 <header>
                     <Link to={Routes.Auth}>
-                        <h1>Cinastra</h1>
+                        <h1>Chat App</h1>
                     </Link>
 
                     <nav>
@@ -56,11 +56,7 @@ const Layout = () => {
 
             <Fade clear>
                 <footer>
-                    <p>Made with love by 
-                        <a href={Repository} target='_blank' rel='noopener noreferrer'>
-                            <span className='Non-Trim-Left'>{Author}</span>
-                        </a>
-                    </p>
+                   
                 </footer>
             </Fade>
         </>
