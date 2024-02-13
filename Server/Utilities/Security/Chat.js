@@ -10,7 +10,7 @@
  * =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
  ****/
 
-const Declarations = JSON.parse(require('fs').readFileSync('./Infrastructure.json'));
+const Declarations = JSON.parse(require('fs').readFileSync('../../Infrastructure.json'));
 const { ParseToFamilyFriendly } = require('./FamilyFriendly');
 
 const { MaxLength } = Declarations.Chat.Message;
